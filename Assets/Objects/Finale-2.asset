@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b84e15eed5a094a9ae155d4adb7b18, type: 3}
+  m_Name: Finale-2
+  m_EditorClassIdentifier: 
+  rings:
+  - mesh: {fileID: 100002, guid: 5c7bf6fa30088654c8b27ebd477b2321, type: 3}
+    speed: 1
+  - mesh: {fileID: 100002, guid: 32120fb670e7a0d489949b8facacbf86, type: 3}
+    speed: 0.5
+  - mesh: {fileID: 100002, guid: 4f4e64daea880bb48a70f1c8f69ae6b3, type: 3}
+    speed: 0.7
+  - mesh: {fileID: 100002, guid: 5d2fda5afbf573e41bb3cafa06361e05, type: 3}
+    speed: 0.6
+  - mesh: {fileID: 100002, guid: 32120fb670e7a0d489949b8facacbf86, type: 3}
+    speed: 1.2
+  - mesh: {fileID: 100002, guid: 7ef58617f56d4d748bb5db290c7dba3a, type: 3}
+    speed: 0.3
+  - mesh: {fileID: 100002, guid: 33b793084ff5a0e4f8b99f64b2b1e6c5, type: 3}
+    speed: -0.4
+  - mesh: {fileID: 100002, guid: d61b0bde89051d1408bd149f9ffed0fe, type: 3}
+    speed: 0.3
+  - mesh: {fileID: 100002, guid: 70290bb2c307d6d488662214a8d5c10b, type: 3}
+    speed: 0.8
+  ringCount: 1

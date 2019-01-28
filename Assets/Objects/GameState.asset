@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c71788996f53a5498a8de97ab515af6, type: 3}
+  m_Name: GameState
+  m_EditorClassIdentifier: 
+  flags:
+  - id: IN_BATTLE
+    flag: 0
+  - id: IN_CONVERSATION
+    flag: 0
+  - id: PLAY_TIMELINE
+    flag: 0
+  - id: HAS_CONTROL
+    flag: 1
+  - id: HAS_KEYS
+    flag: 1
+  - id: HAS_KEYS
+    flag: 0
+  - id: DARCI
+    flag: 0
+  - id: QUINN
+    flag: 0
+  - id: KAI
+    flag: 0
+  - id: CAN_INSPECT_PHOTO
+    flag: 0
+  - id: OPEN_FINALE
+    flag: 0
+  - id: GAME_OVER
+    flag: 1
+  - id: PHOTO_SEQUENCE
+    flag: 0
+  - id: END_STRETCH
+    flag: 0
+  - id: WIN
+    flag: 0
+  - id: SHIP_CONTROL
+    flag: 0
+  - id: DUMMY
+    flag: 0
+  - id: NO_LIVES
+    flag: 1
+  - id: DIALOGUE_VISIBLE
+    flag: 1
+  - id: DIALOGUE_COOLDOWN
+    flag: 0
+  - id: TRANSFER_QUEUE
+    flag: 0
+  - id: INVULNERABLE
+    flag: 0
